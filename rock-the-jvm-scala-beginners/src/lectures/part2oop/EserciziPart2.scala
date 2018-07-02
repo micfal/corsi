@@ -54,3 +54,4 @@ class Counter(val count: Int = 0){
 
   def printInc = println(count)
 }
+
