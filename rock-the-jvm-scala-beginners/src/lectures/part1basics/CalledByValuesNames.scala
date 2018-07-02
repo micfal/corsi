@@ -13,5 +13,4 @@ object CalledByValuesNames extends App {
 
   callByValue(System.nanoTime())
   callByName(System.nanoTime())
-
 }
