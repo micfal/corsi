@@ -1,0 +1,5 @@
+package EsempiIconeClassi
+
+trait MyTrait {
+
+}

@@ -8,11 +8,13 @@ object Objects extends App {
     //static / class - level functionality
     val N_EYES = 2
     def canFly: Boolean = false
+
+    def apply(mother: Person, father: Person): Person = new Person("Bobbie")
   }
   class Person (val name: String ){
     //instance level functionality
     //factory method
-    def apply(mother: Person, father: Person): Person = new Person("Bobbie")
+
   }
   // il fatto di avere oggetto e classe nella stesso scope è detto COMPANIONS.
 
