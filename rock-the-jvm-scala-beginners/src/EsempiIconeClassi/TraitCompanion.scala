@@ -1,13 +1,15 @@
 package EsempiIconeClassi
 
-trait traitdd {
+object MyExampleClass {
+
+}
+class MyParent
+
+class MyExampleClass extends MyParent with MyBehaviour {
 
 }
 
-object trait1{
-
-}
-class trait1{
+trait MyBehaviour{
 
 }
 
